@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="main_title">Menghitung Luas</string>
+    <string name="circle">Lingkaran</string>
+    <string name="square">Persegi</string>
+    <string name="trapezoidal">Trapesium</string>
+
+    <string name="r">Jari-Jari</string>
+
+    <string name="isSquare">Persegi ?</string>
+    <string name="p">Panjang</string>
+    <string name="l">Lebar</string>
+
+    <string name="a">Sisi atas trapesium</string>
+    <string name="b">Sisi bawah trapesium</string>
+    <string name="t">Tinggi trapesium</string>
+
+    <string name="keliling">Keliling</string>
+    <string name="luas">Luas</string>
+
+    <string name="result">Hasil</string>
+    <string name="ok">Ok</string>
+</resources>

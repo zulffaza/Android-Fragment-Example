@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/activity_8dp_margin"
+    android:layout_marginLeft="@dimen/activity_16dp_margin"
+    android:layout_marginRight="@dimen/activity_16dp_margin"
+    android:layout_marginTop="@dimen/activity_8dp_margin"
+    android:orientation="vertical"
+    tools:context=".view.activity.ShapeActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_r"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_16dp_margin">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tiet_r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/r"
+            android:inputType="number|numberDecimal" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_16dp_margin">
+
+        <Button
+            android:id="@+id/btn_luas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/activity_24dp_margin"
+            android:text="@string/luas" />
+
+        <Button
+            android:id="@+id/btn_keliling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/activity_16dp_margin"
+            android:layout_toStartOf="@id/btn_luas"
+            android:padding="@dimen/activity_24dp_margin"
+            android:text="@string/keliling" />
+
+    </RelativeLayout>
+
+</LinearLayout>
